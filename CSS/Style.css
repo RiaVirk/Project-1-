@@ -1,0 +1,99 @@
+body {
+    color: #9d9d9d;
+}
+
+.a {
+    color: #9d9d9d;
+}
+
+.grey {
+    color: #9d9d9d;
+}
+
+.colorWhite {
+    color: #ffffff;
+}
+
+.bgF1 {
+    background-color: #f1f1f1;
+}
+
+.bgGreen {
+    background-color: #99E250;
+}
+.bgWhite {
+    background-color: #ffffff;
+}
+
+.borderNone {
+    border: none;
+}
+
+.borderGreen {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #99E250;
+}
+
+.colorGreen{
+    color:#99E250;
+}
+
+.font12 {
+    font-size: 12px;
+}
+.font10 {
+    font-size: 10px;
+}
+.font8 {
+    font-size: 8px;
+}
+
+
+.abcd {
+    height: 20px;
+}
+ /* temp class for cards scroll */
+/* .card-body {
+    min-height: 300px;
+    min-width: 300px;
+    margin-right: 5px;
+} */
+
+#mainPic {
+    background-image: url('../Pics/Main2.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: calc(100vh - 30vh);
+
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 20%;
+    transition: 0.5s ease;
+}
+
+
+.text1 {
+    white-space: nowrap;
+    color: #9d9d9d;
+    font-size: 10px;
+    font-weight: bold;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.overlay:hover {
+    height: 70%;
+}
